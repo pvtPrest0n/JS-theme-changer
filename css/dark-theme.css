@@ -1,0 +1,95 @@
+.body-background-color-dr {
+  font-family: "Ysabeau", sans-serif;
+  font-size: 15px;
+  overflow: hidden;
+
+  background-image: linear-gradient(0.1deg, rgba(21, 13, 15, 1) 10.2%, rgba(21, 13, 15, 0.7) 99.8%, rgba(21, 13, 15, 0.29) 121.2%);
+}
+
+.wrapper-color-dr {
+  max-width: 530px;
+  margin: 100px auto;
+  padding: 15px;
+
+  min-height: 500px;
+
+  border: solid 1px #0963eb;
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.buttons-dr {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-bottom: 10px;
+}
+
+.buttons_light-theme-dr {
+  margin-right: 10px;
+}
+
+.button_button-light-dr {
+  border: solid 0.5px;
+  border-radius: 7px;
+  padding: 10px;
+
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fffb7d;
+
+  cursor: pointer;
+}
+
+.button_button-dark-dr {
+  border: solid 0.5px;
+  border-radius: 7px;
+  padding: 10px;
+
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fffb7d;
+
+  cursor: pointer;
+}
+
+.button_button-light-dr:hover {
+  background-color: white;
+  transform: scale(0.98);
+}
+
+.button_button-dark-dr:hover {
+  background-color: black;
+  color: white;
+  transform: scale(0.98);
+}
+
+.title-dr {
+  padding-top: 10px;
+  border-top: solid 1px;
+}
+.text-color-dr {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: aliceblue;
+}
+
+.socials-dr {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+
+  margin-top: 100px;
+}
+.icon-dr {
+  width: 40px;
+  cursor: pointer;
+}

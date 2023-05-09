@@ -1,0 +1,100 @@
+@import url(./reset_style.css/style_reset.css);
+@import url(./dark-theme.css);
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  font-family: "Ysabeau", sans-serif;
+  font-size: 15px;
+
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 530px;
+  margin: 100px auto;
+  padding: 15px;
+
+  min-height: 500px;
+
+  border: solid 1px;
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-bottom: 10px;
+}
+
+.buttons_light-theme {
+  margin-right: 10px;
+}
+
+.button_button-light {
+  border: solid 0.5px;
+  border-radius: 7px;
+  padding: 10px;
+
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fffb7d;
+
+  cursor: pointer;
+}
+
+.button_button-dark {
+  border: solid 0.5px;
+  border-radius: 7px;
+  padding: 10px;
+
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fffb7d;
+
+  cursor: pointer;
+}
+
+.button_button-light:hover {
+  background-color: white;
+  transform: scale(0.98);
+}
+
+.button_button-dark:hover {
+  background-color: black;
+  color: white;
+  transform: scale(0.98);
+}
+
+.title {
+  padding-top: 10px;
+  border-top: solid 1px;
+}
+.text-color {
+  margin-bottom: 10px;
+  font-size: 18px;
+
+  line-height: 24px;
+}
+
+.socials {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+
+  margin-top: 100px;
+}
+.icon {
+  width: 40px;
+  cursor: pointer;
+}
